@@ -1,0 +1,43 @@
+site_name: TheClashFruit's Docs
+copyright: Copyright &copy; 2022 TheClashFruit
+site_url: https://docs.theclashfruit.me
+
+extra_css:
+  - css/style.css
+
+extra_javascript:
+  - https://arc.io/widget.min.js#suQ6WaCh
+
+markdown_extensions:
+  - meta
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+repo_url: https://github.com/TheClashFruit/ProjectDocs
+repo_name: TheClashFruit/ProjectDocs
+edit_uri: https://github.com/TheClashFruit/ProjectDocs/edit/main/docs/
+
+extra:
+  version: 1.0
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TheClashFruit
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  features:
+    - navigation.indexes
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
