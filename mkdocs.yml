@@ -11,11 +11,16 @@ extra_javascript:
 markdown_extensions:
   - meta
   - def_list
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
 
 repo_url: https://github.com/TheClashFruit/ProjectDocs
 repo_name: TheClashFruit/ProjectDocs
@@ -35,9 +40,9 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/weather-sunny
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
     - scheme: slate
       toggle:
-        icon: material/weather-night
+        icon: material/toggle-switch
         name: Switch to light mode
