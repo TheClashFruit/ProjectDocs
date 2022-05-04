@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://docs.theclashfruit.me/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.theclashfruit.me/JSLogUtils/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.theclashfruit.me/kvantum-messenger/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.theclashfruit.me/sketchub.js/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.theclashfruit.me/woid/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.theclashfruit.me/woid/about/</loc>
+         <lastmod>2022-05-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
